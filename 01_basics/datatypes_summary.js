@@ -27,5 +27,26 @@ let myObj = {
 const myFunction = function(){
     console.log("hello world");
 }
- console.log(typeof myFunction); // type is function but it is object function
+//  console.log(typeof myFunction); // type is function but it is object function
+// console.log(typeof anotherId);
 
+
+// ***********************************************************
+
+
+// Stack Memory (Primitive) , Heap (Non- Primitive)
+
+
+let myYoutubeName = "adityapatil.com"
+let anotherName = myYoutubeName
+anotherName = "chai aur code"
+// console.log(myYoutubeName);
+// console.log(anotherName);
+let userOne = {
+    email: "user@google.com",
+    upi: "user@paytm"
+}
+let userTwo = userOne
+userTwo.email = "adityakpatil@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
