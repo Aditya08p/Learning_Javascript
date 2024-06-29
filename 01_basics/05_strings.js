@@ -3,7 +3,7 @@ const repoCount = 50;
 // console.log(name + repoCount + "value"); // not prefered way, old ❌
 //  console.log(`hello my name is ${name} and my repo count is ${repoCount}`); // prefered way, modern ✅
 
- const gameName = new String('aditya-hc')
+ const gameName = new String('my name is aditya patil .')
 //  console.log(gameName[0]);
 //  console.log(gameName.__proto__);
 
@@ -12,7 +12,7 @@ const repoCount = 50;
 //  console.log(gameName.charAt(5));
 //  console.log(gameName.indexOf('t'));
 
-const newString =gameName.substring(0,4) // cant gie negative values
+const newString =gameName.substring(0,4) // cant give negative values
 // console.log(newString);
 
 const anotherString = gameName.slice(-8,4) // can give negative values
@@ -27,4 +27,4 @@ const url = "https://aditya.com/adtiya%20chaudhary"
 
 // console.log(url.includes('hello'));
 
-console.log(gameName.split('-'));
+// console.log(gameName.split(' '));
