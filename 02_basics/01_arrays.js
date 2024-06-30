@@ -20,11 +20,11 @@ const newArr = myArr.join() // conerts array to string as well
 
 console.log("A ", myArr);
 
-const myn1 = myArr.slice(1,3);
+const myn1 = myArr.slice(1,3); // excludes the end range and copies the values from 1 to n-1 without any manipulation in the original array
 
 console.log(myn1);
 console.log("B ", myArr);
 
-const myn2 = myArr.splice(1,3);
+const myn2 = myArr.splice(1,3); // includes the end range and directly extracts the values from 1 to n, manipulating the original array so that those values are removed in the original array 
 console.log("C ", myArr);
 console.log(myn2);
