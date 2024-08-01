@@ -70,3 +70,9 @@ console.log(instructor);
 //     "courseName": "js in ihndi",
 //     "price": "free"
 // }
+
+[
+    {},
+    {},
+    {}
+]
