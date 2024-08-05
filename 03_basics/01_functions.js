@@ -27,4 +27,32 @@ function loginusermsg(username ="sam"){ // overrided when given value, otherwise
     }
     return `${username} just logged in`
 }
-console.log(loginusermsg("aditya patil"))
+// console.log(loginusermsg("aditya patil"))
+
+function calculateCartPrice(val1, val2, ...num1){
+    return num1
+}
+
+console.log(calculateCartPrice(200,400,500,3000))
+const user = {
+    username: "aditya",
+    price: 199
+}
+function handleObject(anyObject){
+    console.log(`username is ${anyObject.username} and price is ${anyObject.price}`);
+    
+}
+// handleObject(user)
+// handleObject({
+//     username: "sam",
+//     price: 399
+// })
+
+const myNewArr = [200,400,600,800]
+function returnSecondVal(getarray){
+    return getarray[1]
+}
+
+console.log(returnSecondVal(myNewArr));
+
+console.log(returnSecondVal([2000,300,550,662,562,672]))
