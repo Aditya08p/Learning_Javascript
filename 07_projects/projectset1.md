@@ -1,6 +1,6 @@
 # Projects related to DOM
 ## Solutions
-### Project 1
+### Project 1 solution
 ```javascript
 const buttons = document.querySelectorAll('.button')
 const body = document.querySelector("body")
@@ -29,7 +29,7 @@ buttons.forEach( (btn) => {
 });
 ```
 
-## Project 2 solution
+### Project 2 solution
 ```javascript
 const form = document.querySelector('form')
 //this usecase will give empty value
@@ -58,4 +58,16 @@ form.addEventListener('submit',(e)=>{
     }
   }
 })
+```
+### Project 3 Solution
+```javascript
+const clock = document.getElementById('clock')
+// const clock = document.querySelector('#clock')
+
+
+setInterval(function(){
+  let date = new Date()
+  // console.log(date.toLocaleTimeString())
+  clock.innerHTML = date.toLocaleTimeString()
+}, 1000)
 ```
