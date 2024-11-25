@@ -1,5 +1,6 @@
 # Projects related to DOM
-## project 1
+## Solutions
+### Project 1
 ```javascript
 const buttons = document.querySelectorAll('.button')
 const body = document.querySelector("body")
